@@ -6,7 +6,7 @@ body{
 }
 
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: "Kanit", sans-serif; 
 
 }
@@ -365,6 +365,11 @@ input,textarea{
 
 .form input,textarea{
     font-family: "Poppins", sans-serif;
+  
+}
+.contact-formsec input,textarea{
+    font-family: "Poppins", sans-serif;
+    
   
 }
 
