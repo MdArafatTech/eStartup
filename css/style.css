@@ -88,8 +88,26 @@ span{
     box-shadow:5px 5px 10px rgba(111, 205, 109, 0.848) ;
     text-align: center;
     cursor: pointer;
-   
+    animation-name:one-ani ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    
  }
+ @keyframes one-ani {
+    
+    0%{ border-top:red solid 4px ;
+        color: red ;
+    }
+    25%{border-right:rgb(37, 141, 252) solid 4px ; color:rgb(37, 141, 252) ;}
+    50%{ border-bottom:yellowgreen solid 4px ;
+    color: yellowgreen; }
+    75%{ border-left: rgb(245, 65, 224) solid 4px ;
+    color: rgb(245, 65, 224) ;}
+    100%{ border-top: 0chred solid 4px;
+    color: red;}
+ }
+
+ 
 .one:hover{
     background-color: #71c55d !important;
     transition:0.4s ;
@@ -278,8 +296,27 @@ input,textarea{
     width:100% ;
     margin-top:20px ;
     border-radius:10px;
-    height:400px ;
+    height:auto;
     margin-bottom:10px ;
+    animation-name:servicesani ;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes servicesani {
+0%{ border-radius:30px ;
+box-shadow:0 0 7px 6px #71c55d ;}
+25%{ border-radius:50px ;
+opacity: 0.8;}
+
+50%{border-radius: 50%;
+box-shadow:0 0 0 10px #71c55d ;
+opacity:0.5 ; }
+75%{ border-radius:80% ; 
+opacity:0.8 ;}
+100%{ border-radius:20px  ;
+box-shadow:0 0 7px 6px #71c55d;
+opacity: 1;}
 }
 
 /* pricing */
