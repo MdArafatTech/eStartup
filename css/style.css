@@ -239,7 +239,12 @@ input,textarea{
     border-radius:20px ;
     padding:20px ;
     box-shadow:5px 5px 5px #71c55d;
-}
+    animation-name: service-ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+  
+
+    
  .service:hover{
    transform: scale(1.04);
    transition:0.4s ;
@@ -299,8 +304,8 @@ input,textarea{
     height:auto;
     margin-bottom:10px ;
     animation-name:servicesani ;
-    animation-duration:5s ;
-    animation-iteration-count: infinite;
+    animation-duration:3s ;
+    animation-iteration-count:1;
 }
 
 @keyframes servicesani {
